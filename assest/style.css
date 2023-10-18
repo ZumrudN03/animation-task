@@ -1,0 +1,39 @@
+.menu{
+    display: flex;
+    padding: 1rem;
+}
+.menu a{
+    padding: 1rem 2rem;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    transition: 600ms;
+}
+.down-btn{
+    padding: 1.1rem 2rem;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+.down i{
+    padding-left: 1rem;
+}
+.menu a:hover{
+    background-color: red;
+}
+.menu button:hover{
+    background-color: red;
+}
+.down .content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 10rem;
+}
+.content a{
+    display: block;
+    text-align: left;
+}
+.down:hover .content {
+    display: block;
+  }
